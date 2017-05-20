@@ -7,4 +7,4 @@ title: Предметы
 
 * [ИТиРОД](itirod/)
 
-![Архив](archive.html)
+[Архив](archive.html)
