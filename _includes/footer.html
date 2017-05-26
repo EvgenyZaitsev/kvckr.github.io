@@ -37,7 +37,21 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+        <script src="/scripts/metaphorjs.observable.js"></script>
+        <script src="/scripts/sheep.min.js"></script>
+        <script>
+          var sheep;
+          var addSheep = function() {
+            var sh = new Sheep({
+              floors: "window, .floor"
+            });
+
+            if (!sheep) {
+              sheep = sh;
+            }
+          };
+        </script>
+        <p><a href="#_" onclick="addSheep();">Click</a></p>
       </div>
     </div>
 
