@@ -3,4 +3,4 @@ layout: default
 title: test
 ---
 
-$$a^2 + b^2 = c^2$$
+$$c'x \rightarrow max, Ax = b, x \ge 0$$
